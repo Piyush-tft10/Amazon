@@ -27,6 +27,18 @@ public class AmazonTest1 extends BaseClass {
 		bs.goToHome();
 	}
 
-	
+	@Test
+	public void testCase2() {
+		driver.get(url);
+		HomePage hp = new HomePage(driver);
+		AnniversaryGiftCardPage agp = new AnniversaryGiftCardPage(driver);
+		GiftCardDetailPage gcp = new GiftCardDetailPage(driver);
+		BaseClass bs = new BaseClass();
+		hp.giftCardCategory();
+		agp.selectAnniversaryType();
+		gcp.selectDiwaliCard();
+		gcp.viaEmail();
+		gcp.addToCart();
+	}
 
 }
