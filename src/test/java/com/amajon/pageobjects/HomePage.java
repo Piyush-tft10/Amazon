@@ -27,7 +27,7 @@ public class HomePage extends BaseClass {
 
 	// @FindBy(css = "#itembox-Partner .vsx-offers-count")
 	// WebElement allOffers;
-
+//
 	// @FindBy(xpath = "(//div[@class='a-carousel-col a-carousel-right']/a)[1]")
 	// WebElement showAllButton;
 
